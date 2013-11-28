@@ -7,22 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftSize.Infrastrucure.NHib
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftSize.Infrastructure.MongoDbRepository", "SoftSize.Infrastructure.MongoDbRepository\SoftSize.Infrastructure.MongoDbRepository.csproj", "{4896A7D0-BB97-46FE-A753-5CDB886FADC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftSize.Infrastructure.MVC", "SoftSize.Infrastructure.MVC\SoftSize.Infrastructure.MVC.csproj", "{2C60E363-47DF-4BCF-A39F-00EA6F50BE94}"
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://softsize.tfspreview.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = SoftSize.Infrastructure.MongoDbRepository\\SoftSize.Infrastructure.MongoDbRepository.csproj
-		SccProjectName1 = SoftSize.Infrastructure.MongoDbRepository
-		SccLocalPath1 = SoftSize.Infrastructure.MongoDbRepository
-		SccProjectUniqueName2 = SoftSize.Infrastructure\\SoftSize.Infrastructure.csproj
-		SccProjectName2 = SoftSize.Infrastructure
-		SccLocalPath2 = SoftSize.Infrastructure
-		SccProjectUniqueName3 = SoftSize.Infrastrucure.NHibernateRepository\\SoftSize.Infrastrucure.NHibernateRepository.csproj
-		SccProjectName3 = SoftSize.Infrastrucure.NHibernateRepository
-		SccLocalPath3 = SoftSize.Infrastrucure.NHibernateRepository
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -40,6 +27,10 @@ Global
 		{4896A7D0-BB97-46FE-A753-5CDB886FADC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4896A7D0-BB97-46FE-A753-5CDB886FADC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4896A7D0-BB97-46FE-A753-5CDB886FADC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C60E363-47DF-4BCF-A39F-00EA6F50BE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C60E363-47DF-4BCF-A39F-00EA6F50BE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C60E363-47DF-4BCF-A39F-00EA6F50BE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C60E363-47DF-4BCF-A39F-00EA6F50BE94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
