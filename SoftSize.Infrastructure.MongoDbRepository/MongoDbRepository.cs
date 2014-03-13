@@ -69,7 +69,7 @@ namespace SoftSize.Infrastructure.MongoDbRepository
             throw new NotImplementedException();
         }
 
-        public IEnumerable<T> FindAll(Func<T, bool> function)
+        public IEnumerable<T> FindAll(Expression<Func<T, bool>> function)
         {
             return collection
                     .AsQueryable<T>()

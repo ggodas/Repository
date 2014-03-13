@@ -14,7 +14,7 @@ namespace SoftSize.Infrastructure
         bool RemoveAll(Func<T, bool> function);
 
         IEnumerable<T> FindAll(Specification<T> specification);
-        IEnumerable<T> FindAll(Func<T, bool> function);
+        IEnumerable<T> FindAll(Expression<Func<T, bool>> function);
         T FindOne(Specification<T> specification);
     }
  }

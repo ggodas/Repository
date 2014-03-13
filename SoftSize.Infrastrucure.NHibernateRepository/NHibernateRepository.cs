@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
+using System.Media;
 using LinqSpecs;
 using NHibernate;
 using NHibernate.Linq;
@@ -56,6 +58,7 @@ namespace SoftSize.Infrastrucure.NHibernateRepository
             return Transact(() => GetEnumerator());
         }
 
+
         public IEnumerable<T> FindAll(Specification<T> specification)
         {
             var query = GetQuery(specification);
@@ -75,9 +78,9 @@ namespace SoftSize.Infrastrucure.NHibernateRepository
         }
 
 
-        public IEnumerable<T> FindAll(Func<T, bool> function)
+        public IEnumerable<T> FindAll(Expression<Func<T, bool>> function)
         {
-            throw new NotImplementedException();
+            return session.QueryOver<T>().Where(function).List();
         }
 
 
